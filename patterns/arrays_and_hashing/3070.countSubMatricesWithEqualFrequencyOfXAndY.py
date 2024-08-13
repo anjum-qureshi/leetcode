@@ -39,3 +39,12 @@ class Solution:
                 if curr_cell[0] and (curr_cell[0] == curr_cell[1]):
                     sub_arr_cnt += 1
         return sub_arr_cnt
+    
+
+# 123
+# r, pv := 0,1
+# r += (n % 10) * pv, 0 + 3 * 1 = 3, 3+  
+# pv += 10, n = n/10
+# 
+# 
+# 
